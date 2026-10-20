@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123d2c">
+  <meta name="description" content="Convite de casamento de Eduardo Zualo e Balbina Wétela, 19 de dezembro de 2026.">
+  <title>Casamento — Eduardo Zualo &amp; Balbina Wétela</title>
+  <style>
+    :root { --green: #123d2c; --gold: #bd9140; --cream: #f8f3e8; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 24px 14px 36px;
+      background: var(--cream); color: var(--green);
+      font-family: Georgia, "Times New Roman", serif;
+      text-align: center;
+    }
+    main { max-width: 760px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.35rem, 4vw, 2rem); }
+    .intro { margin: 0 auto 18px; line-height: 1.5; }
+    .invitation {
+      display: block; width: 100%; height: auto;
+      border: 1px solid var(--gold); border-radius: 8px;
+      box-shadow: 0 8px 28px rgba(25, 44, 32, .13);
+    }
+    .details {
+      margin: 22px auto; padding: 18px;
+      border: 1px solid var(--gold); border-radius: 12px;
+      background: rgba(255,255,255,.45); line-height: 1.7;
+    }
+    .button {
+      display: inline-block; margin: 8px 0 16px; padding: 14px 24px;
+      border-radius: 999px; background: var(--green); color: white;
+      text-decoration: none; font-weight: bold; border: 2px solid var(--gold);
+    }
+    .button:hover, .button:focus { background: #1c563d; }
+    .note { font-size: .9rem; line-height: 1.5; opacity: .9; }
+    footer { margin-top: 22px; color: var(--green); font-style: italic; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>O nosso casamento</h1>
+    <p class="intro">Eduardo Zualo &amp; Balbina Wétela<br>19 de dezembro de 2026</p>
+
+    <img class="invitation" src="convite-casamento.png"
+         alt="Convite de casamento de Eduardo Zualo e Balbina Wétela">
+
+    <section class="details" aria-label="Informações das cerimónias">
+      <strong>Cerimónia religiosa — 10h</strong><br>
+      Igreja MEA da T-3
+      <hr style="border:0;border-top:1px solid #bd9140;margin:14px auto;max-width:220px">
+      <strong>Cerimónia civil — 13h</strong><br>
+      Complexo Reina do Zimpeto
+    </section>
+
+    <!-- IMPORTANTE: substitua 258XXXXXXXX pelo número de WhatsApp com código do país,
+         sem o sinal +, espaços ou traços. Exemplo de formato: 258841234567. -->
+    <a class="button"
+       href="https://wa.me/258XXXXXXXX?text=Ol%C3%A1%21%20Confirmo%20a%20minha%20presen%C3%A7a%20no%20casamento%20de%20Eduardo%20Zualo%20e%20Balbina%20W%C3%A9tela."
+       target="_blank" rel="noopener">
+      Confirmar presença pelo WhatsApp
+    </a>
+    <p class="note">Para ativar o botão, troque <code>258XXXXXXXX</code> pelo número de WhatsApp que receberá as confirmações.</p>
+    <footer>Contamos com você!</footer>
+  </main>
+</body>
+</html>
